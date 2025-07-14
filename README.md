@@ -1,7 +1,7 @@
 # Predator-Prey
 An agent based simulation for the predator-prey model, using zebras and lions. 
 
-Features included: \
+Features included: 
 1. An animal class with basic features for all animals. It can move, see and detect enemies and allies. \
    a. Animals have a visibility range. If they can see enemies, they choose one of them as their current enemy. \
    b. Animals track collisions to determine whether they collide with enemies (and eat or are eaten) or collide with allies (and reproduce if they haven't done so recently). 
